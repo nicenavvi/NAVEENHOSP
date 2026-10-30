@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AMMA Primary School Online Learning – Telugu and English learning support for Classes 1 to 10, with special Mathematics coaching by Naveen Kumar.">
+<meta name="theme-color" content="#123b35">
+<title>AMMA Primary School | Learn Today. Lead Tomorrow.</title>
+<style>
+:root{--green:#123b35;--green2:#1c6555;--mint:#e9f6ef;--yellow:#ffd76a;--ink:#172b27;--muted:#64736e;--paper:#fbfdfb;--line:#e4ece7;--white:#fff;--shadow:0 18px 50px rgba(18,59,53,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:-.5px;color:var(--green)}.logo{width:44px;height:44px;border-radius:14px;background:var(--green);color:var(--yellow);display:grid;place-items:center;font-size:21px;font-weight:900}.brand small{display:block;font-size:10px;letter-spacing:1.5px;color:var(--muted);font-weight:700}.navlinks{display:flex;gap:24px;align-items:center;font-size:14px;font-weight:700;color:#42544e}.navlinks a:hover{color:var(--green2)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;padding:12px 20px;background:var(--green);color:#fff;font-weight:800;cursor:pointer;transition:.2s}.nav-cta:hover,.btn:hover{background:var(--green2);transform:translateY(-2px)}.menu{display:none;background:none;border:0;font-size:25px;color:var(--green)}
+.hero{padding:74px 0 68px;background:radial-gradient(circle at 85% 15%,#fff0c7 0,transparent 24%),linear-gradient(135deg,#f1faf4,#fff 58%,#fdf6e6);overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:45px}.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid #dcece1;border-radius:999px;padding:7px 13px;color:var(--green2);font-size:12px;font-weight:900;letter-spacing:1px;text-transform:uppercase}.hero h1{font-size:clamp(42px,6vw,68px);line-height:1.03;letter-spacing:-2.8px;color:var(--green);margin:20px 0}.hero h1 span{color:#d18a16}.hero p{font-size:18px;color:#52645d;max-width:590px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn.secondary{background:#fff;color:var(--green);border:1px solid #d8e7dc}.trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:28px;color:#63736d;font-size:13px;font-weight:700}.hero-art{position:relative;min-height:390px;border-radius:34px;background:linear-gradient(145deg,#dff2e6,#fff0c8);display:grid;place-items:center;box-shadow:var(--shadow);overflow:hidden}.hero-art:before,.hero-art:after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.55)}.hero-art:before{width:280px;height:280px;right:-55px;top:-80px}.hero-art:after{width:190px;height:190px;left:-55px;bottom:-65px}.study-card{position:relative;z-index:1;background:#fff;border-radius:24px;padding:28px;width:min(330px,80%);box-shadow:0 20px 45px rgba(18,59,53,.16);transform:rotate(-3deg)}.study-card .math{font-size:54px;color:var(--green);font-weight:900;text-align:center;line-height:1.1}.study-card h3{text-align:center;color:var(--green);margin:10px 0 3px}.study-card p{text-align:center;font-size:13px;margin:0;color:var(--muted)}.floating{position:absolute;z-index:2;background:#fff;border-radius:16px;padding:12px 16px;box-shadow:var(--shadow);font-weight:800;color:var(--green);font-size:13px}.f1{top:38px;left:24px}.f2{bottom:34px;right:20px}
+.stats{margin-top:-1px;background:var(--green);color:#fff}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);padding:24px 0;gap:15px;text-align:center}.stat strong{display:block;color:var(--yellow);font-size:25px}.stat span{font-size:12px;color:#d5e6dc;font-weight:700}
+section{padding:82px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 42px}.kicker{color:#c17b12;font-size:12px;font-weight:900;letter-spacing:1.5px;text-transform:uppercase}.section-head h2{font-size:clamp(30px,4vw,43px);line-height:1.12;letter-spacing:-1.4px;color:var(--green);margin:10px 0}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:25px;box-shadow:0 8px 30px rgba(18,59,53,.04);transition:.2s}.card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.icon{width:50px;height:50px;border-radius:16px;background:var(--mint);display:grid;place-items:center;font-size:24px;margin-bottom:17px}.card h3{color:var(--green);margin:0 0 8px;font-size:20px}.card p{color:var(--muted);font-size:14px;margin:0}.tag{display:inline-block;margin-top:16px;padding:6px 10px;border-radius:99px;background:#fff5d9;color:#8a5a08;font-size:11px;font-weight:900}
+.classes{background:#f1f8f3}.class-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.class-tile{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px 12px;text-align:center;transition:.2s}.class-tile:hover{border-color:#9bc9aa;transform:translateY(-3px)}.class-tile b{display:block;font-size:26px;color:var(--green)}.class-tile span{font-size:12px;color:var(--muted);font-weight:700}
+.maths{background:var(--green);color:#fff;position:relative;overflow:hidden}.maths:after{content:"∑  π  √  x²";position:absolute;right:-10px;bottom:-55px;font-size:130px;font-weight:900;color:rgba(255,255,255,.045);white-space:nowrap}.math-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center;position:relative;z-index:1}.maths .kicker{color:var(--yellow)}.maths h2{font-size:clamp(32px,4vw,48px);line-height:1.1;margin:12px 0;color:#fff}.maths p{color:#d2e4db}.math-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}.math-list div{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.12);padding:13px;border-radius:14px;font-size:13px;font-weight:700}.prof-card{background:#fff;color:var(--green);border-radius:25px;padding:30px;box-shadow:0 20px 45px rgba(0,0,0,.12)}.prof-avatar{width:76px;height:76px;border-radius:24px;background:#fff0c8;display:grid;place-items:center;font-size:35px}.prof-card h3{margin:16px 0 2px;font-size:25px}.prof-card .role{color:#a66c0c;font-weight:800;font-size:13px}.prof-card p{color:#60716a;font-size:14px}
+.subjects{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}.subject{padding:13px 19px;border-radius:999px;background:#fff;border:1px solid var(--line);font-weight:800;color:var(--green);font-size:14px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{padding:23px;border-radius:20px;background:#fff;border:1px solid var(--line)}.step-num{font-size:12px;font-weight:900;color:#c17b12}.step h3{color:var(--green);margin:8px 0}.step p{font-size:13px;color:var(--muted);margin:0}
+.cta{background:linear-gradient(120deg,#fff0c8,#e6f5eb);padding:55px 0}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{font-size:clamp(27px,4vw,38px);color:var(--green);margin:0 0 8px}.cta p{margin:0;color:var(--muted)}
+.faq{max-width:800px;margin:auto}.faq details{background:#fff;border:1px solid var(--line);border-radius:15px;padding:17px 20px;margin:10px 0}.faq summary{font-weight:800;color:var(--green);cursor:pointer}.faq details p{color:var(--muted);font-size:14px;margin-bottom:0}
+.contact{background:#f1f8f3}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px}.contact-info,.contact-form{background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px}.contact-info h3,.contact-form h3{color:var(--green);margin-top:0}.contact-info p{color:var(--muted);font-size:14px}.contact-form label{display:block;font-size:13px;font-weight:800;color:var(--green);margin:12px 0 5px}.contact-form input,.contact-form select,.contact-form textarea{width:100%;border:1px solid #dce7df;border-radius:11px;padding:13px;font:inherit;background:#fbfdfb}.contact-form textarea{min-height:100px;resize:vertical}.note{font-size:11px;color:#7a8982;margin-top:10px}
+footer{background:#0c2b27;color:#d6e6de;padding:42px 0 22px}.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}.footer-brand{color:#fff;font-size:20px;font-weight:900}.footer-grid p,.footer-grid a{font-size:13px;color:#b7ccc1}.footer-grid h4{color:var(--yellow);margin:0 0 12px}.footer-links{display:grid;gap:8px}.copyright{border-top:1px solid rgba(255,255,255,.13);margin-top:28px;padding-top:18px;font-size:11px;color:#91aaa0;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media(max-width:850px){.navlinks{display:none;position:absolute;top:76px;left:0;right:0;background:#fff;padding:20px 5%;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.menu{display:block}.nav-cta{display:none}.hero-grid,.math-grid,.contact-grid{grid-template-columns:1fr}.hero-art{min-height:320px}.cards{grid-template-columns:repeat(2,1fr)}.class-grid{grid-template-columns:repeat(5,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.cta-inner{align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.hero{padding:50px 0}.hero h1{letter-spacing:-1.8px}.hero p{font-size:16px}.stats-grid{grid-template-columns:repeat(2,1fr)}section{padding:60px 0}.cards{grid-template-columns:1fr}.class-grid{grid-template-columns:repeat(2,1fr)}.math-list{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.trust{gap:12px}.hero-art{min-height:290px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home"><span class="logo">A</span><span>AMMA PRIMARY SCHOOL<small>ONLINE LEARNING • TELUGU + ENGLISH</small></span></a>
+    <nav class="navlinks" id="navlinks"><a href="#home">Home</a><a href="#about">About</a><a href="#classes">Classes</a><a href="#subjects">Subjects</a><a href="#maths">Maths Academy</a><a href="#contact">Contact</a></nav>
+    <a class="nav-cta" href="#contact">Enquire Now ↗</a>
+    <button class="menu" aria-label="Open menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+ <div class="container hero-grid">
+  <div>
+   <span class="eyebrow">✦ Online Learning for Classes 1–10</span>
+   <h1>Strong Basics.<br><span>Bright Futures.</span></h1>
+   <p>పిల్లలు సులభంగా అర్థం చేసుకునే విధంగా Telugu + Englishలో Online Learning. ప్రతి పాఠం అర్థమయ్యేలా, ప్రతి విద్యార్థి ఆత్మవిశ్వాసంతో ముందుకు సాగేలా.</p>
+   <div class="hero-actions"><a class="btn" href="#classes">Explore Classes →</a><a class="btn secondary" href="#contact">Talk to Us</a></div>
+   <div class="trust"><span>✓ Classes 1 to 10</span><span>✓ Telugu + English</span><span>✓ Learn from Home</span></div>
+  </div>
+  <div class="hero-art" aria-label="Mathematics learning illustration">
+   <div class="floating f1">📚 Learn at your pace</div>
+   <div class="study-card"><div class="math">1 + 1 = 2</div><h3>Learning Made Simple</h3><p>Understand • Practise • Improve</p></div>
+   <div class="floating f2">⭐ Every child can shine</div>
+  </div>
+ </div>
+</section>
+
+<div class="stats"><div class="container stats-grid">
+ <div class="stat"><strong>1–10</strong><span>Classes Covered</span></div><div class="stat"><strong>2</strong><span>Learning Languages</span></div><div class="stat"><strong>100%</strong><span>Concept-Focused</span></div><div class="stat"><strong>Online</strong><span>Learn Anywhere</span></div>
+</div></div>
+
+<section id="about"><div class="container">
+ <div class="section-head"><span class="kicker">Welcome to AMMA</span><h2>Learning that builds confidence</h2><p>AMMA Primary School Online అనేది Classes 1–10 విద్యార్థులకు పాఠ్యాంశాలను సులభంగా అర్థం చేసుకునేలా రూపొందించిన Online Learning Platform.</p></div>
+ <div class="cards">
+  <article class="card"><div class="icon">🎯</div><h3>Concept Clarity</h3><p>కేవలం సమాధానాలు కాదు – ప్రతి concept వెనుక ఉన్న logicను అర్థం చేసుకునే విధంగా బోధన.</p><span class="tag">Understand Better</span></article>
+  <article class="card"><div class="icon">🌐</div><h3>Telugu + English</h3><p>తెలుగులో వివరణతో పాటు ముఖ్యమైన English subject terms నేర్చుకునే bilingual approach.</p><span class="tag">Learn in Two Languages</span></article>
+  <article class="card"><div class="icon">✍️</div><h3>Practice & Revision</h3><p>Worksheets, quizzes, revision activities ద్వారా నేర్చుకున్న విషయాలను మరింత బలపరచండి.</p><span class="tag">Practise Every Day</span></article>
+ </div>
+</div></section>
+
+<section class="classes" id="classes"><div class="container">
+ <div class="section-head"><span class="kicker">Our Learning Hub</span><h2>Choose your class</h2><p>మీ తరగతిని ఎంచుకొని subject-wise lessons, practice material మరియు learning support పొందండి.</p></div>
+ <div class="class-grid">
+  <a class="class-tile" href="#contact"><b>01</b><span>Class 1</span></a><a class="class-tile" href="#contact"><b>02</b><span>Class 2</span></a><a class="class-tile" href="#contact"><b>03</b><span>Class 3</span></a><a class="class-tile" href="#contact"><b>04</b><span>Class 4</span></a><a class="class-tile" href="#contact"><b>05</b><span>Class 5</span></a>
+  <a class="class-tile" href="#contact"><b>06</b><span>Class 6</span></a><a class="class-tile" href="#contact"><b>07</b><span>Class 7</span></a><a class="class-tile" href="#contact"><b>08</b><span>Class 8</span></a><a class="class-tile" href="#contact"><b>09</b><span>Class 9</span></a><a class="class-tile" href="#contact"><b>10</b><span>Class 10</span></a>
+ </div>
+</div></section>
+
+<section id="subjects"><div class="container">
+ <div class="section-head"><span class="kicker">Subject-wise Learning</span><h2>All-round learning support</h2><p>పాఠశాల స్థాయికి అనుగుణంగా ముఖ్యమైన subjectsలో learning support.</p></div>
+ <div class="subjects"><span class="subject">➗ Mathematics</span><span class="subject">🔬 Science</span><span class="subject">🌍 Social Studies</span><span class="subject">🔤 English</span><span class="subject">తెలుగు</span><span class="subject">🌱 Environmental Studies</span><span class="subject">📝 Exam Preparation</span></div>
+</div></section>
+
+<section class="maths" id="maths"><div class="container math-grid">
+ <div><span class="kicker">Special Focus</span><h2>Mathematics made easy.</h2><p>భయపడకుండా Maths నేర్చుకునేలా step-by-step explanations, examples, shortcuts కంటే ముందుగా strong fundamentalsపై దృష్టి.</p>
+  <div class="math-list"><div>✓ Number System & Arithmetic</div><div>✓ Algebra & Equations</div><div>✓ Geometry & Mensuration</div><div>✓ Fractions & Decimals</div><div>✓ Logical Problem Solving</div><div>✓ Practice & Revision</div></div>
+ </div>
+ <div class="prof-card"><div class="prof-avatar">👨‍🏫</div><h3>Naveen Kumar</h3><div class="role">Mathematics Professor</div><p>AMMA Primary School Onlineలో Mathematics learningకు ప్రత్యేక మార్గదర్శకత్వం. ప్రతి విద్యార్థి తన స్థాయికి తగిన వేగంతో concepts అర్థం చేసుకొని practice చేయడానికి సహాయం.</p><a class="btn" href="#contact">Enquire for Maths Classes</a></div>
+</div></section>
+
+<section id="how"><div class="container">
+ <div class="section-head"><span class="kicker">How It Works</span><h2>Start learning in 4 simple steps</h2><p>ఇంటి నుంచే సులభంగా Online Learning ప్రారంభించండి.</p></div>
+ <div class="steps">
+  <div class="step"><span class="step-num">STEP 01</span><h3>Send Enquiry</h3><p>విద్యార్థి పేరు, తరగతి మరియు అవసరమైన subject వివరాలు పంపండి.</p></div>
+  <div class="step"><span class="step-num">STEP 02</span><h3>Get Details</h3><p>Class schedule, learning method మరియు available options తెలుసుకోండి.</p></div>
+  <div class="step"><span class="step-num">STEP 03</span><h3>Join Online</h3><p>అవసరమైన వివరాలు నిర్ధారించిన తర్వాత online learning ప్రారంభించండి.</p></div>
+  <div class="step"><span class="step-num">STEP 04</span><h3>Learn & Practise</h3><p>Lessons నేర్చుకొని worksheets, practice activities పూర్తి చేయండి.</p></div>
+ </div>
+</div></section>
+
+<section class="cta"><div class="container cta-inner"><div><h2>Give your child a confident start.</h2><p>మీ పిల్లల learning journey గురించి తెలుసుకోవడానికి మమ్మల్ని సంప్రదించండి.</p></div><a class="btn" href="#contact">Enquire Now →</a></div></section>
+
+<section id="faq"><div class="container"><div class="section-head"><span class="kicker">FAQs</span><h2>Frequently asked questions</h2><p>Online learning గురించి సాధారణ సందేహాలకు సమాధానాలు.</p></div>
+ <div class="faq">
+  <details><summary>ఈ platformలో ఏ తరగతులకు learning support ఉంటుంది?</summary><p>Classes 1 నుంచి 10 వరకు learning support కోసం ఈ website రూపొందించబడింది. ప్రతి తరగతికి అందుబాటులో ఉన్న subjects మరియు scheduleను enquiry ద్వారా నిర్ధారించుకోండి.</p></details>
+  <details><summary>బోధన ఏ భాషల్లో ఉంటుంది?</summary><p>Telugu + English bilingual approachలో పాఠాలు వివరించబడతాయి. అవసరమైన చోట English terminologyను కూడా పరిచయం చేస్తాము.</p></details>
+  <details><summary>Online classesలో చేరడానికి ఏమి అవసరం?</summary><p>Internet connection ఉన్న smartphone, tablet లేదా computer ఉపయోగించవచ్చు. Class-specific joining details enquiry తర్వాత అందించబడతాయి.</p></details>
+  <details><summary>ఇది recognised school లేదా board examination centreనా?</summary><p>ఈ website online tutoring మరియు learning support platformను పరిచయం చేస్తుంది. Formal school admission, board affiliation లేదా recognised school statusగా దీన్ని భావించకండి.</p></details>
+ </div>
+</div></section>
+
+<section class="contact" id="contact"><div class="container">
+ <div class="section-head"><span class="kicker">Get in Touch</span><h2>Let’s plan your learning journey</h2><p>మీ వివరాలు పంపండి. మీ అవసరాలకు తగిన learning information కోసం సంప్రదిస్తాము.</p></div>
+ <div class="contact-grid">
+  <div class="contact-info"><h3>AMMA PRIMARY SCHOOL</h3><p><b>Online Learning Platform</b><br>Classes 1–10 • Telugu + English</p><p><b>Founder & Mathematics Professor</b><br>Naveen Kumar</p><p>📍 Telangana, India</p><p>📧 Email: <em>Add your official email</em></p><p>📱 WhatsApp: <em>Add your contact number</em></p><p class="note">మీ అసలు phone number, email మరియు class timingsను website publish చేయడానికి ముందు చేర్చండి.</p></div>
+  <form class="contact-form" onsubmit="sendEnquiry(event)"><h3>Student Enquiry</h3>
+   <label for="student">Student / Parent Name</label><input id="student" required placeholder="Enter your name">
+   <label for="phone">Phone Number</label><input id="phone" required inputmode="tel" placeholder="Enter phone number">
+   <label for="grade">Class</label><select id="grade" required><option value="">Select class</option><option>Class 1</option><option>Class 2</option><option>Class 3</option><option>Class 4</option><option>Class 5</option><option>Class 6</option><option>Class 7</option><option>Class 8</option><option>Class 9</option><option>Class 10</option></select>
+   <label for="subject">Interested Subject</label><select id="subject"><option>All Subjects</option><option>Mathematics</option><option>Science</option><option>English</option><option>Telugu</option><option>Social Studies</option></select>
+   <label for="message">Message</label><textarea id="message" placeholder="Tell us what learning support you need"></textarea>
+   <button class="btn" type="submit">Prepare Enquiry Message →</button><p class="note">ఈ demo form మీ వివరాలతో WhatsApp messageను సిద్ధం చేస్తుంది. Publish చేయడానికి ముందు scriptలో మీ WhatsApp number నమోదు చేయాలి.</p>
+  </form>
+ </div>
+</div></section>
+</main>
+
+<footer><div class="container">
+ <div class="footer-grid"><div><div class="footer-brand">AMMA PRIMARY SCHOOL</div><p>Learn Today. Lead Tomorrow.<br>Telugu + English Online Learning for Classes 1–10.</p></div>
+ <div><h4>Explore</h4><div class="footer-links"><a href="#about">About Us</a><a href="#classes">Classes 1–10</a><a href="#subjects">Subjects</a><a href="#maths">Maths Academy</a></div></div>
+ <div><h4>Contact</h4><div class="footer-links"><a href="#contact">Student Enquiry</a><a href="#faq">FAQs</a><a href="#home">Back to top ↑</a></div></div></div>
+ <div class="copyright"><span>© <span id="year"></span> AMMA Primary School. All rights reserved.</span><span>Designed for young learners in Telangana ❤️</span></div>
+</div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+// IMPORTANT: Replace the placeholder with your WhatsApp number, including country code, digits only.
+const WHATSAPP_NUMBER = "91XXXXXXXXXX";
+function sendEnquiry(e){
+ e.preventDefault();
+ const name=document.getElementById('student').value.trim();
+ const phone=document.getElementById('phone').value.trim();
+ const grade=document.getElementById('grade').value;
+ const subject=document.getElementById('subject').value;
+ const message=document.getElementById('message').value.trim();
+ const text=`AMMA Primary School Enquiry\nName: ${name}\nPhone: ${phone}\nClass: ${grade}\nSubject: ${subject}\nMessage: ${message}`;
+ if(WHATSAPP_NUMBER.includes("X")){alert("Please add your WhatsApp number in the website code (WHATSAPP_NUMBER) before publishing.");return;}
+ window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`,'_blank');
+}
+</script>
+</body>
+</html>
